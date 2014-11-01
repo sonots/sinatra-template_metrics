@@ -40,6 +40,7 @@ end
 # open class
 module Sinatra
   module Templates
+    # add_tracer :render was not good because it is called for layout also
     ::Sinatra::TemplateMetrics.add_tracer :erb
     ::Sinatra::TemplateMetrics.add_tracer :erubis
     ::Sinatra::TemplateMetrics.add_tracer :haml
