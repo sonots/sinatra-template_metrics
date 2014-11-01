@@ -2,7 +2,7 @@ module Sinatra
   class Metrics
     class LtsvFormatter
       def call(severity, datetime, progname, msg)
-        "time:#{datetime}\t#{format_msg(msg)}\n"
+        "time:#{datetime.iso8601}\t#{format_msg(msg)}\n"
       end
 
       private

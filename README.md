@@ -36,7 +36,7 @@ end
 This will show you the measure time to render erb as:
 
 ```
-time:2014-11-02 02:28:32 +0900     template:index  layout:base     elapsed:0.002839445
+time:2014-11-02T02:39:50+09:00     template:index  layout:base     elapsed:0.002839445
 ```
 
 where `elapsed` is the elapsed time in seconds.
