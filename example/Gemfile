@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "sinatra"
+gem "unicorn"
+gem "foreman"
+gem "sinatra-template_metrics", path: '../'
+gem 'pry'
+gem 'pry-nav'
