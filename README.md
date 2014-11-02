@@ -43,7 +43,7 @@ where `elapsed` is the elapsed time in seconds.
 
 ## See also
 
-* [rack-ltsv_logger](https://github.com/sonots/rack-ltsv_logger) is useful to instrument http request.
+* [rack-ltsv_logger](https://github.com/sonots/rack-ltsv_logger) (or `enable :logging`) is useful to instrument http request.
 * [mysql2-metrics](https://github.com/sonots/mysql2-metrics) is useful to instrument mysql2 queries. 
 
 ## Contributing
