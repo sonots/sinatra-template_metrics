@@ -24,7 +24,7 @@ Just require `sinatra/template_metrics` in addition to `sinatra/base` as:
 
 ```ruby
 require 'sinatra/base'
-require 'sinatra/template_metrics'
+require 'sinatra-template_metrics'
 
 class App < Sinatra::Base
   get '/' do
